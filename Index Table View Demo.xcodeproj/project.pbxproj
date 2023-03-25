@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D68E350829CE95EC00071CB3 /* AnimalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68E350729CE95EC00071CB3 /* AnimalTableViewController.swift */; };
+		D68E350C29CEA92B00071CB3 /* AnimalTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68E350B29CEA92B00071CB3 /* AnimalTableDataSource.swift */; };
 		D6E175FF29CD7D8E0083B834 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E175FE29CD7D8E0083B834 /* AppDelegate.swift */; };
 		D6E1760129CD7D8E0083B834 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E1760029CD7D8E0083B834 /* SceneDelegate.swift */; };
-		D6E1760329CD7D8E0083B834 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E1760229CD7D8E0083B834 /* ViewController.swift */; };
 		D6E1760629CD7D8E0083B834 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E1760429CD7D8E0083B834 /* Main.storyboard */; };
 		D6E1760829CD7D8F0083B834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E1760729CD7D8F0083B834 /* Assets.xcassets */; };
 		D6E1760B29CD7D8F0083B834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E1760929CD7D8F0083B834 /* LaunchScreen.storyboard */; };
@@ -18,10 +18,10 @@
 
 /* Begin PBXFileReference section */
 		D68E350729CE95EC00071CB3 /* AnimalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTableViewController.swift; sourceTree = "<group>"; };
+		D68E350B29CEA92B00071CB3 /* AnimalTableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTableDataSource.swift; sourceTree = "<group>"; };
 		D6E175FB29CD7D8E0083B834 /* Index Table View Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Index Table View Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E175FE29CD7D8E0083B834 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6E1760029CD7D8E0083B834 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D6E1760229CD7D8E0083B834 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D6E1760529CD7D8E0083B834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6E1760729CD7D8F0083B834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6E1760A29CD7D8F0083B834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,12 +60,12 @@
 			children = (
 				D6E175FE29CD7D8E0083B834 /* AppDelegate.swift */,
 				D6E1760029CD7D8E0083B834 /* SceneDelegate.swift */,
-				D6E1760229CD7D8E0083B834 /* ViewController.swift */,
 				D6E1760429CD7D8E0083B834 /* Main.storyboard */,
 				D6E1760729CD7D8F0083B834 /* Assets.xcassets */,
 				D6E1760929CD7D8F0083B834 /* LaunchScreen.storyboard */,
 				D6E1760C29CD7D8F0083B834 /* Info.plist */,
 				D68E350729CE95EC00071CB3 /* AnimalTableViewController.swift */,
+				D68E350B29CEA92B00071CB3 /* AnimalTableDataSource.swift */,
 			);
 			path = "Index Table View Demo";
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6E1760329CD7D8E0083B834 /* ViewController.swift in Sources */,
+				D68E350C29CEA92B00071CB3 /* AnimalTableDataSource.swift in Sources */,
 				D6E175FF29CD7D8E0083B834 /* AppDelegate.swift in Sources */,
 				D6E1760129CD7D8E0083B834 /* SceneDelegate.swift in Sources */,
 				D68E350829CE95EC00071CB3 /* AnimalTableViewController.swift in Sources */,
